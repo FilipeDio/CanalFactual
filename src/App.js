@@ -6,6 +6,7 @@ import Nav from './components/organisms/nav/nav';
 import Aside from './components/organisms/aside/aside';
 
 import { StyledContainer,MainContent } from './components/organisms/Container/Container.styled';
+import { Footer } from './components/organisms/footer/footer';
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      
       </MainContent>
       </StyledContainer>
+
     </BrowserRouter>
 
     </div>

@@ -1,5 +1,7 @@
 import { StyledAside, StyledAsideDiv } from "./aside.styled";
 import Asidebtn from "../../atoms/AsideBtn/Asidebtn";
+import { SocialNav}  from "../../atoms/socialnav/socialnav";
+
 
 
 const Aside = ()=>{
@@ -15,6 +17,10 @@ const Aside = ()=>{
                 <Asidebtn name="Estados Unidos"></Asidebtn>
                 <Asidebtn name="Outros"></Asidebtn>
             </StyledAsideDiv>
+
+            <div>
+                <SocialNav></SocialNav>
+            </div>
         </StyledAside>
     )
 }
