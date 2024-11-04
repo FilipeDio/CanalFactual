@@ -10,7 +10,7 @@ const Aside = ()=>{
             <StyledAsideDiv>
                 <Asidebtn name="Últimas notícias">Últimas notícias</Asidebtn>
                 <Asidebtn name="Portugal"> </Asidebtn>
-                <Asidebtn name="Guerra"></Asidebtn>
+                <Asidebtn name="Conflitos"></Asidebtn>
                 <Asidebtn name="Economia"></Asidebtn>
                 <Asidebtn name="União europeia"></Asidebtn>
                 <Asidebtn name="China"></Asidebtn>

@@ -9,4 +9,5 @@ export const StyledContainer =styled.div`
 export const MainContent = styled.div`
     flex:1;
     padding:1rem;
+    transform: translate(12rem,5rem);
 `

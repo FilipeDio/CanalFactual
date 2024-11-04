@@ -7,7 +7,7 @@ export const StyledAsidebtn = styled.button`
     border:none;
     width: 100%;
     background-color: #EEEEEE;
-
+    font-family: "Amatic SC",bold;
     &:hover{
         color:white;
         background-color: lightblue;

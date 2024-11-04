@@ -16,6 +16,8 @@ export const StyledLinkBtn = styled.button`
 export const StyledNavLink = styled(RouterNavLink)`
     text-decoration: none;
     color: black;
+    font-family: "Amatic SC";
+    font-size: 20px;
 
 
 `

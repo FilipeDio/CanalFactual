@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input::placeholder{
+  font-family: "Amatic SC",sans-serif;
+}
+input:focus{
+  outline:none;
+}
