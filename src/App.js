@@ -11,10 +11,12 @@ import Aside from './components/organisms/aside/aside';
 import { StyledContainer,MainContent } from './components/organisms/Container/Container.styled';
 import { Footer } from './components/organisms/footer/footer';
 import Register from './pages/register/register';
+import { FormProvider } from './context/formProvider';
 
 function App() {
   return (
 
+    <FormProvider>
     <div> 
     <BrowserRouter>
    
@@ -36,6 +38,7 @@ function App() {
     </BrowserRouter>
 
     </div>
+    </FormProvider>
  
   );
 }

@@ -1,6 +1,9 @@
 import { StyledLinkBtn, StyledNavLink } from "./LinksBtn.styled";
+import { useContext } from "react";
+import { FormContext} from "../../../context/formProvider";
 
 const LinksBtn = (props) => {
+    const { showForm } = useContext(FormContext);   
     if (props.name === "Entrar") {
         return (
             <StyledLinkBtn>
@@ -18,9 +21,10 @@ const LinksBtn = (props) => {
     }
 
     if (props.name === "AddPost") {
+   
         return (
             <StyledLinkBtn>
-                <StyledNavLink to="/AddPost">AdicionarPost</StyledNavLink>
+                <StyledNavLink onClick={showForm}>AdicionarPost</StyledNavLink>
             </StyledLinkBtn>
         );
     }
